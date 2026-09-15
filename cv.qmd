@@ -1,10 +1,9 @@
 ---
-author: Simen Kvaal
 date: 2026-09-11
-title: Curriculum Vitae --- Simen Kvaal
+title: Curriculum Vitae
 ---
 
-# Simen Kvaal
+## Simen Kvaal
 
 **Associate Professor of Theoretical Chemistry**\
 Department of Chemistry, University of Oslo
@@ -139,7 +138,7 @@ Supervisors: Morten Hjorth-Jensen (main), Hans Petter Langtangen
 :::{.callout-tip}
 ### Bibliographical summary --- 11 September 2026 
 
-**48
+**41
 peer-reviewed journal articles** in mathematics, physics, and
  chemistry\
  **1 published book chapter**\
@@ -196,6 +195,7 @@ hours/week), Department of Physics, University of Oslo.
 
 ## Research supervision and mentoring
 
+**Postdoc supervision:** 2 as main supervisor
 **PhD supervision:** 4 as main supervisor; 4 as co-supervisor (2
 currently active).\
 **MSc supervision:** 3 as main supervisor; 5 informal co-supervisions

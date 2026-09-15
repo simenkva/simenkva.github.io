@@ -1,9 +1,13 @@
-# Publications
+---
+title: "List of publications"
+---
+
+
 
 :::{.callout-tip}
 ### Bibliographical summary --- 11 September 2026 
 
-**48
+**49
 peer-reviewed journal articles** in mathematics, physics, and
  chemistry\
  **1 published book chapter**\

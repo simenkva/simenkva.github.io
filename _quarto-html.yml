@@ -1,0 +1,9 @@
+format:
+  html:
+    theme:
+      - flatly
+      - brand
+    css: styles.css
+    toc: true
+    filters:
+      - iconify

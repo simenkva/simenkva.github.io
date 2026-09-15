@@ -10,6 +10,38 @@ quarto render
 
 Output is written to `docs/`, which GitHub Pages serves from (Settings → Pages → branch `main`, folder `/docs`).
 
+## Building individual PDFs
+
+`cv.qmd` and `publications.qmd` can also be rendered as styled PDFs (Lora/Roboto
+fonts, matching the site's colors), via a Quarto ["pdf" profile](https://quarto.org/docs/projects/profiles.html)
+defined in `_quarto-pdf.yml`. HTML lives in its own profile too (`_quarto-html.yml`,
+active by default via `profile.default: html` in `_quarto.yml`), so the `pdf`
+profile defines *only* the `pdf` format — no `--to pdf` needed, since it's the
+only format available once the profile is selected:
+
+```sh
+quarto render cv.qmd --profile pdf
+quarto render publications.qmd --profile pdf
+```
+
+This writes `docs/cv.pdf` / `docs/publications.pdf`.
+
+**Two gotchas:**
+
+- **Always render a single file, never the bare project.** Running
+  `quarto render --profile pdf` with no file argument renders the *whole
+  project* under that profile. Since the pdf profile's `project.render` list
+  only contains `cv.qmd` and `publications.qmd`, a full-project render
+  reconciles all of `docs/` against just those two outputs — deleting every
+  other page, `site_libs/`, `styles.css`, images, and other static PDFs in the
+  process. If that happens, restore everything with a plain `quarto render`
+  (default HTML profile) and re-run the two commands above.
+- **Don't drop `--profile pdf`.** `quarto render cv.qmd --to pdf` "succeeds"
+  even without the profile, because Quarto/Pandoc fall back to a generic
+  built-in PDF format when the active profile defines none — it silently
+  produces a plain, unstyled PDF (wrong engine, no fonts/colors) instead of
+  failing loudly, and overwrites the properly styled one.
+
 ## Publications list workflow
 
 The publications page (`publications.qmd`) is generated from a BibTeX file rather

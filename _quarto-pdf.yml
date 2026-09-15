@@ -1,0 +1,63 @@
+project:
+  render:
+    - cv.qmd
+    - publications.qmd
+
+format:
+  pdf:
+    pdf-engine: xelatex
+    mainfont: Lora
+    mainfontoptions:
+      - Path=fonts/Lora/
+      - Extension=.ttf
+      - UprightFont=*-Regular
+      - ItalicFont=*-Italic
+      - BoldFont=*-Bold
+      - BoldItalicFont=*-BoldItalic
+    sansfont: Roboto
+    sansfontoptions:
+      - Path=fonts/Roboto/
+      - Extension=.ttf
+      - UprightFont=*-Regular
+      - ItalicFont=*-Italic
+      - BoldFont=*-Bold
+      - BoldItalicFont=*-BoldItalic
+    fontsize: 12pt
+    geometry:
+      - margin=1in
+    colorlinks: true
+    linkcolor: cvlink
+    urlcolor: cvlink
+    toc: false
+    include-in-header:
+      text: |
+        \usepackage{xcolor}
+        \definecolor{cvtext}{HTML}{000000}
+        \definecolor{cvheading}{HTML}{287271}
+        \definecolor{cvlink}{HTML}{2A9D8F}
+        \AtBeginDocument{\color{cvtext}}
+        \AtBeginDocument{\author{}\date{}}
+        \usepackage{titlesec}
+        \titleformat{\section}
+          {\normalfont\sffamily\fontsize{13.58}{16}\selectfont\bfseries\color{cvheading}}
+          {}{0pt}{}
+        \titlespacing*{\section}{0pt}{*3}{*1.5}
+        \titleformat{\subsection}
+          {\normalfont\sffamily\fontsize{16}{19}\selectfont\mdseries\color{cvheading}}
+          {}{0pt}{}
+          [{\vskip2pt{\color{black}\hrule}\vskip4pt}]
+        \titlespacing*{\subsection}{0pt}{*2}{*1}
+        \titleformat{\subsubsection}
+          {\normalfont\sffamily\fontsize{12}{12}\selectfont\bfseries\color{cvheading}}
+          {}{0pt}{}
+        \titlespacing*{\subsubsection}{0pt}{*2}{*0.5}
+        \makeatletter
+        \renewcommand{\maketitle}{%
+          \begingroup
+            \centering
+            \vspace*{-6pt}
+            {\sffamily\bfseries\fontsize{23.46}{28}\selectfont\color{cvtext}\@title\par}
+            \vspace{28pt}
+          \endgroup
+        }
+        \makeatother

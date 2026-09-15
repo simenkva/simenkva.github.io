@@ -3,6 +3,9 @@ project:
   output-dir: docs
   pre-render: scripts/generate_publications.py
 
+profile:
+  default: html
+
 website:
   title: "Simen Kvaal"
   navbar:
@@ -17,18 +20,4 @@ website:
         text: GitHub
       - href: cv.qmd
         text: CV
-
-
-
-format:
-  html:
-    theme:
-      - flatly
-      - brand
-    css: styles.css
-    toc: true
-    filters:
-      - iconify
-
-
 

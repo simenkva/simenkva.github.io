@@ -202,8 +202,58 @@ def format_article(entry):
         citation += f", {pages}"
     citation += "."
     if doi:
-        citation += f" [doi:{doi}](https://doi.org/{doi})"
+        citation += f"\\\n  [doi:{doi}](https://doi.org/{doi})"
     return f"- {citation}"
+
+
+# ---------------------------------------------------------------------------
+# Book chapters
+
+def format_editors(editor_field):
+    editors = [format_author_name(e) for e in editor_field.split(" and ")]
+    label = "Ed." if len(editors) == 1 else "Eds."
+    if len(editors) == 1:
+        names = editors[0]
+    elif len(editors) == 2:
+        names = f"{editors[0]} and {editors[1]}"
+    else:
+        names = ", ".join(editors[:-1]) + ", and " + editors[-1]
+    return f"{names} ({label})"
+
+
+def format_incollection(entry):
+    authors = format_authors(entry["author"])
+    title = clean_latex(entry["title"])
+    booktitle = clean_latex(entry.get("booktitle", ""))
+    editor_field = entry.get("editor", "")
+    pages = entry.get("pages", "")
+    publisher = clean_latex(entry.get("publisher", ""))
+    year = entry.get("year", "")
+    doi = entry.get("doi", "")
+
+    citation = f"{authors} ({year}). *{title}*."
+    if booktitle:
+        citation += " In"
+        if editor_field:
+            citation += f" {format_editors(editor_field)},"
+        citation += f" *{booktitle}*"
+        if pages:
+            citation += f" (pp. {pages})"
+        citation += "."
+    if publisher:
+        citation += f" {publisher}."
+    if doi:
+        citation += f"\\\n  [doi:{doi}](https://doi.org/{doi})"
+    return f"- {citation}"
+
+
+# ---------------------------------------------------------------------------
+# Dispatch by BibTeX entry type
+
+def format_publication(entry):
+    if entry.get("type") == "incollection":
+        return format_incollection(entry)
+    return format_article(entry)
 
 
 # ---------------------------------------------------------------------------
@@ -224,16 +274,18 @@ def format_preprint(entry):
 
     citation = f"{authors} ({year})."
     if link:
-        citation += f" [{link_label}]({link})"
+        citation += f"\\\n[{link_label}]({link})"
 
     block = [f"**{title}**", "", citation]
     if abstract:
         block += [
             "",
+            ':::{.content-visible when-format="html"}',
             "<details>",
             "<summary>Abstract</summary>",
             f"<p>{html.escape(abstract, quote=False)}</p>",
             "</details>",
+            ":::",
         ]
     return "\n".join(block) + "\n\n---"
 
@@ -242,7 +294,7 @@ def main():
     articles = parse_entries(PUBLISHED_BIB.read_text(encoding="utf-8"))
     articles.sort(key=lambda e: (e.get("year", ""), e.get("title", "")), reverse=True)
     PUBLISHED_OUT.parent.mkdir(parents=True, exist_ok=True)
-    PUBLISHED_OUT.write_text(render_grouped(articles, format_article), encoding="utf-8")
+    PUBLISHED_OUT.write_text(render_grouped(articles, format_publication), encoding="utf-8")
     print(f"Generated {PUBLISHED_OUT.relative_to(ROOT)} from {len(articles)} entries.")
 
     preprints = parse_entries(PREPRINTS_BIB.read_text(encoding="utf-8"))
