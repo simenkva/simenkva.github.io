@@ -1,0 +1,21 @@
+# Some GitHub repositories
+
+This is a collection of some of my public personal GitHub repositories, with pedagogical, research, or recreational content. Unless otherwise stated, the code is human written.
+
+
+| Repository | Description |
+|------------|-------------|
+| [GIAOINT](https://github.com/simenkva/GIAOINT){target="_blank"} | A recent experiment: A Codex/Claude-coded C++ integral code for gauge-including atomic orbitals (GIAOs), also known as London orbitals. These are needed for electronic-structure theory in external uniform magnetic fields. The code is quite efficient and supplies PyBind11 bindings. |
+| [fft_tdse](https://github.com/simenkva/fft_tdse){target="_blank"} |  HySE: simulation toolbox for the time-dependent Schrödinger equation dveloped for ease-of-use, aiming for physics and chemistry didactical use, but also reaseach.  |
+| [dst_tdse](https://github.com/simenkva/dst_tdse){target="_blank"} | Discrete-sine-transform based solver for the time-dependent Schrödinger equation in multiple dimensions. |
+| [quarto-canvas](https://github.com/simenkva/quarto-canvas){target="_blank"} | Codex-coded extension for [quarto](https://www.quarto.org){target="_blank"} that renders Obsidian canvases in quarto websites. |
+| [ultra_fractal_tools](https://github.com/simenkva/ultra_fractal_tools){target="_blank"} | Support for [Ultra Fractal](https://www.ultrafractal.com){target="_blank"} formula files in VSCode, including a Codex skill. |
+| [Orbitals](https://github.com/simenkva/Orbitals){target="_blank"} | Hydrogen orbital visualizer. Coded with Codex. Link to live simulation: [Orbitals](https://simenkva.github.io/Orbitals){target="_blank"} |
+| [FEMDVR](https://github.com/simenkva/FEMDVR){target="_blank"} | A simple implementation of the Finite Element Discrete Variable Representation method. |
+
+
+
+
+<!--
+ | [MagHF](https://github.com/simenkva/MagHF){target="_blank"} | A continuation of the GIAOINT experiment. A simple Hartree-Fock code for molecules in external magnetic fields. Now also exteded with a restricted CCSD(T) and spin-orbital CCSD(T) code, with Lambda-equations and derivatives and properties. Everything is coded with human-guided AI. |
+-->
