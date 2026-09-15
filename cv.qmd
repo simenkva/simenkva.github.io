@@ -1,0 +1,299 @@
+---
+author: Simen Kvaal
+date: 2026-09-11
+title: Curriculum Vitae --- Simen Kvaal
+---
+
+# Simen Kvaal
+
+**Associate Professor of Theoretical Chemistry**\
+Department of Chemistry, University of Oslo
+
+**Academic website:** [University of Oslo
+profile](https://www.mn.uio.no/)\
+**ORCID:** [0000-0002-5118-4546](https://orcid.org/0000-0002-5118-4546)
+
+## Research profile
+
+Theoretical and computational quantum chemistry, with emphasis on
+coupled-cluster theory, density-functional theory, quantum dynamics, and
+mathematical and numerical analysis of electronic-structure methods.
+Research at the interface of chemistry, physics, applied mathematics, and quantum computing.
+
+## Academic appointments
+
+**2024--present --- Associate Professor in Theoretical Chemistry**\
+Department of Chemistry, University of Oslo
+
+**2015--2024 --- Scientific Researcher**\
+Hylleraas Centre for Quantum Molecular Sciences, University of Oslo\
+(previously the Centre for Theoretical and Computational Chemistry)
+
+**2012--2015 --- Scientific Researcher**\
+Centre for Theoretical and Computational Chemistry (CTCC), University of
+Oslo\
+ERC Advanced Grant project ABACUS, PI: Trygve Helgaker
+
+**2010--2011 --- Postdoctoral Fellow**\
+Department of Mathematics, Universität Tübingen, Germany\
+On leave from the University of Oslo. Supervisor: Prof. Christian Lubich
+
+**2009--2011 --- Postdoctoral Fellow**\
+Centre of Mathematics for Applications, University of Oslo
+
+**2008--2009 --- Researcher**\
+Centre of Mathematics for Applications, University of Oslo
+
+### Earlier professional experience
+
+**2006--2007 --- Developer/Researcher, Faster Imaging AS** (10%
+part-time)\
+Image-compression techniques.
+
+**2001 and 2002 --- Developer, Simula Research Laboratory** (summer
+employment)\
+Integration of large-scale eigenvalue solvers in Diffpack (C++
+finite-element library); scripts for translating large LaTeX documents
+to HTML.
+
+## Education
+
+**2009 --- PhD, University of Oslo**\
+Centre of Mathematics for Applications / Department of Physics\
+Thesis: *Analysis of many-body methods for quantum dots*\
+Supervisors: Morten Hjorth-Jensen (main), Ragnar Winther (co-supervisor)
+
+**2004 --- MSc (cand. scient.), University of Oslo**\
+Department of Physics\
+Thesis: *A critical study of the finite difference and finite element
+methods for the time-dependent Schrödinger equation* (Grade A)\
+Supervisors: Morten Hjorth-Jensen (main), Hans Petter Langtangen
+(co-supervisor)
+
+## Research funding
+
+  ---------------------------------------------------------------------------
+  Year             Role             Programme / project               Funding
+  ---------------- ---------------- ------------------- ---------------------
+  2025             Partner          RCN Centre for            NOK 60M (€5.6M)
+                                    Quantum Technology  
+                                    --- *Center for     
+                                    Quantum Computing   
+                                    and Applications    
+                                    (QSTAR)*, leader:   
+                                    Franz Fuchs;        
+                                    project period      
+                                    2026--2029          
+
+  2022             **Co-PI**        RCN Large                 NOK 25M (€2.1M)
+                                    Interdisciplinary   
+                                    Researcher Project  
+                                    --- *Mathematics    
+                                    for quantum         
+                                    computation and     
+                                    many-body theory    
+                                    (QOMBINE)*          
+
+  2019             **PI**, with     Centre for Advanced      NOK 3.4M (€0.3M)
+                   Thomas Bondo     Study ---           
+                   Pedersen         *Attosecond Quantum 
+                                    Dynamics Beyond the 
+                                    Born-Oppenheimer    
+                                    Approximation       
+                                    (ATTODYN)*;         
+                                    academic year       
+                                    2021/22 plus        
+                                    one-year COVID-19   
+                                    extension           
+
+  2018             Collaborator     Peder Sather Center        USD 22k (€20k)
+                                    for Advanced Study  
+                                    Grant --- *A        
+                                    posteriori error    
+                                    estimates for       
+                                    coupled-cluster     
+                                    theory*             
+
+  2015             Collaborator     Peder Sather Center        USD 25k (€23k)
+                                    for Advanced Study  
+                                    Grant --- *Advanced 
+                                    Computational       
+                                    Methods for the     
+                                    Quantum Mechanical  
+                                    Many-Body Problem   
+                                    in Physics and      
+                                    Quantum Chemistry*  
+
+  2014--2021       **PI**           **ERC Starting                  **€1.5M**
+                                    Grant ---           
+                                    Bivariational       
+                                    Approximations in   
+                                    Quantum Mechanics   
+                                    and Applications to 
+                                    Quantum Chemistry   
+                                    (BIVAQUM)**         
+  ---------------------------------------------------------------------------
+
+## Research output
+
+:::{.callout-tip}
+### Bibliographical summary --- 11 September 2026 
+
+**48
+peer-reviewed journal articles** in mathematics, physics, and
+ chemistry\
+ **1 published book chapter**\
+ **6 single-author papers** (2008--2023)\
+ **1,835 citations · h-index 22**
+:::
+
+## Teaching experience
+
+### Course leadership and primary teaching
+
+**2025--present --- KJM5600/9600, Quantum Chemistry** (MSc/PhD level)\
+Course administrator and lecturer (100% of course), Department of
+Chemistry, University of Oslo.
+
+**2024--present --- KJM2601, Quantum Chemistry and Spectroscopy** (BSc
+level)\
+Course administrator and lecturer (100% of course), Department of
+Chemistry, University of Oslo.
+
+**2015--2017 --- FYS-KJM4480, Quantum Mechanics for Many-Particle
+Systems** (MSc/PhD level; 3 semesters)\
+Course administrator and lecturer (100% of course), Departments of
+Physics and Chemistry, University of Oslo.
+
+**2017 --- IN-KJM1900, Introduction to Programming for Chemists**\
+Course administrator and lecturer (50% of course); correction of
+compulsory assignments, Departments of Informatics and Chemistry,
+University of Oslo.
+
+### International and specialized teaching
+
+**2022--present --- European Summer School in Quantum Chemistry (ESQC),
+Sicily**\
+Lecturer on mathematical methods in quantum chemistry (8 hours).
+Biennial school; head organizer: Trond Saue, University of Toulouse.
+
+
+**2023--present --- Annual Hylleraas School**\
+Lecturer electron dynamics, density-functional theory, and practical graphical design.
+	
+### Earlier university teaching
+
+**2005--2006 --- INF-MAT3360, Introduction to Partial Differential
+Equations** (2 semesters)\
+Group tutor; responsible for all student tutoring sessions (4
+hours/week) and correction of compulsory assignments, Departments of
+Informatics and Mathematics, University of Oslo.
+
+**2000 --- FYS-201, Introduction to Quantum Mechanics** (spring
+semester)\
+Group tutor; responsible for all student tutoring sessions (4
+hours/week), Department of Physics, University of Oslo.
+
+## Research supervision and mentoring
+
+**PhD supervision:** 4 as main supervisor; 4 as co-supervisor (2
+currently active).\
+**MSc supervision:** 3 as main supervisor; 5 informal co-supervisions
+during PhD studies.
+
+### PhD students and postdoctoral researchers
+
+-   **Håkon Richard Fredheim**, PhD student (2022--2026) --- main
+    supervisor; now consultant, Sopra Steria AS.
+-   **Snorre Bergan**, PhD student (2022--present) --- co-supervisor.
+-   **Simon E. Schrader**, PhD student (2022--2026) --- main supervisor;
+    now independent researcher.
+-   **Tilmann Bodenstein**, postdoctoral researcher (2019--2021) --- now
+    researcher at the Hylleraas Centre.
+-   **Fabian M. Faulstich**, PhD student (2017--2020) --- main
+    supervisor; now at Rensselaer Polytechnic Institute, USA.
+-   **Benedicte Ofstad**, PhD student (2016--2023) --- main supervisor;
+    now at the Institute for Energy Technology.
+-   **Rolf H. Myhre**, postdoctoral researcher (2016--2018) --- now
+    researcher at the Norwegian Meteorological Institute.
+-   **Andre Laestadius**, postdoctoral researcher (2015--2020) --- now
+    Associate Professor at Oslo Metropolitan University.
+-   **Gustav Baardsen**, PhD student (2011--2014) --- co-supervisor; now
+    Research Scientist at Varian, Helsinki.
+
+## Scientific leadership and conference organization
+
+-   **2025 --- WATOC2025**, Congress of the World Association of
+    Theoretically Oriented Chemists --- member of organizing committee;
+    \>1,100 participants.
+-   **2023 --- Molecular Quantum Dynamics**, international workshop,
+    Centre for Advanced Study --- initiator and member of four-person
+    organizing committee.
+-   **2015 --- Fundamental Aspects of DFT**, international workshop,
+    Centre for Theoretical and Computational Chemistry --- member of
+    two-person organizing committee.
+-   **2010 --- Time-Dependent Quantum Mechanics --- Analysis and
+    Numerics**, international workshop, Centre of Mathematics for
+    Applications --- initiator and member of three-person organizing
+    committee.
+
+## Selected international research collaborations
+
+-   **Ludwik Adamowicz**, University of Arizona, USA --- explicitly
+    correlated Gaussians; quantum chemistry beyond the Born--Oppenheimer
+    approximation.
+-   **Fabian Faulstich**, Rensselaer Polytechnic Institute, USA ---
+    analysis of coupled-cluster methods.
+-   **Elias Jarlebring**, KTH, Sweden --- numerical analysis for quantum
+    mechanics and chemistry.
+-   **Andre Laestadius**, OsloMet, Norway --- mathematical analysis in
+    quantum chemistry.
+-   **Caroline Lasser**, Technical University of Munich, Germany ---
+    numerical analysis in quantum dynamics.
+-   **Reinhold Schneider**, Technical University of Berlin, Germany ---
+    coupled-cluster theory and tensor-network states.
+
+## Academic leadership and service
+
+### Leadership and governance
+
+-   **Co-PI, Research Theme 7: Machine Learning and Mathematical
+    Chemistry**, Hylleraas Centre (2023--present).
+-   **Member, Programme Council for Chemistry**, Department of
+    Chemistry, University of Oslo (2024--present) --- advisory body for
+    the chemistry study programmes.
+-   **Member, dScience Community Forum**, University of Oslo
+    (2020--present).
+-   **Member, Young Academy of Norway** (2014--2019); membership by
+    application and selection based on academic merit, profile, and
+    diversity.
+-   In-house graphical designer, Hylleraas Centre.
+-   Organized weekly seminars at the Centre for Theoretical and
+    Computational Chemistry (2015).
+
+### Peer review and evaluation
+
+Referee for journals including *Nature*, *Physical Review Letters*,
+*Physical Review A*, *Physical Review X*, *Archive for Rational
+Mechanics and Analysis*, *The European Physical Journal*, *Foundations
+of Computational Mathematics*, *International Journal of Quantum
+Chemistry*, *The Journal of Chemical Physics*, and *Journal of Chemical
+Theory and Computation*.
+
+-   Grant application reviewer for ETH Research and the US National
+    Science Foundation.
+-   External examiner for MSc and BSc students, OsloMet (2021--2022).
+-   Member of mock-interview panels for ERC interview training,
+    University of Oslo (2015--present).
+
+## Public outreach
+
+**Popular-science writing (2010--2014)**\
+Writer for the popular-science blog *Kollokvium*.
+
+**Radio appearances (2010--2014)**\
+NRK *Ekko* and *Abels Tårn*.
+
+**Competition judging**\
+Judge for *Immunidol*, public-outreach competition of the Norwegian
+Society of Immunology (2013).

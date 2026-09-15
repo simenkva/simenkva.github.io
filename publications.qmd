@@ -1,0 +1,22 @@
+# Publications
+
+:::{.callout-tip}
+### Bibliographical summary --- 11 September 2026 
+
+**48
+peer-reviewed journal articles** in mathematics, physics, and
+ chemistry\
+ **1 published book chapter**\
+ **6 single-author papers** (2008--2023)\
+ **1,835 citations · h-index 22**
+:::
+
+
+
+## Peer-Reviewed Journal Articles
+
+{{< include _generated/publications_list.md >}}
+
+## Preprints
+
+{{< include _generated/preprints_list.md >}}

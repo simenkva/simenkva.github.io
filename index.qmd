@@ -1,0 +1,35 @@
+---
+title: "Simen Kvaal, Associate Professor"
+image: images/Kvaal_150.jpg
+
+about:
+  id: hero-heading
+  template: trestles
+  image-width: 70%
+  image-shape: rounded
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:simen.kvaal@kjemi.uio.no
+    - icon: mortarboard-fill
+      text: UiO Profile
+      href: https://www.mn.uio.no/kjemi/personer/vit/simenkva/
+      target: _blank
+    - text: "{{< ai google-scholar >}} Google Scholar"
+      href: https://scholar.google.com/citations?user=fVcJjTsAAAAJ
+      target: _blank
+    - text: "{{< ai orcid >}} ORCID"
+      href: https://orcid.org/0000-0002-5118-4546
+      target: _blank
+    - icon: github
+      text: GitHub
+      href: https://github.com/simenkva
+      target: _blank
+---
+
+:::{#hero-heading}
+
+Associate Professor at the [Hylleraas Centre for Quantum Molecular Sciences](https://www.mn.uio.no/hylleraas/),
+Department of Chemistry, University of Oslo, Norway.
+
+:::

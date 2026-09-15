@@ -1,0 +1,16 @@
+# Quarto
+/.quarto/
+/_freeze/
+**/*.quarto_ipynb
+.Rproj.user/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+.TemporaryItems

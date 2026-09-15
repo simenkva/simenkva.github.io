@@ -1,0 +1,8 @@
+typography:
+  fonts:
+    - family: Lora
+      source: bunny
+    - family: Roboto
+      source: bunny
+  base:
+    family: Lora

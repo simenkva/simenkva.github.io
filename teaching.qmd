@@ -1,0 +1,32 @@
+# Current UiO Courses
+
+## KJM2601 - Physical Chemistry II
+
+Physical Chemistry II is an introduction to quantum chemistry and spectroscopy at the bachelor level.
+
+Link to lecture notes and course material: [www.physchem.no](https://www.physchem.no){target="_blank"}
+
+
+## KJM5600/9600 - Quantum Chemistry
+
+This course is an introduction to electronic-structure theory at the master level.
+
+Link to lecture notes: [PDF file](lecture-notes-kjm5600.pdf)
+
+
+# European Summerschool in Quantum Chemistry (ESQC)
+
+ESQC is a biannual summerschool held at Hotel Torre Normanna in Sicily, Italy. At the school I teach a course on mathematical methods for quantum chemistry.
+
+Link to course material: [github pages](https://simenkva.github.io/esqc_math)
+
+Link to exercise bok: [github pages](https://simenkva.github.io/esqc_exercises/student)
+
+
+# Retired teaching material
+
+## FYS-KJM4480/9480 - Quantum mechanics for many-particle systems
+
+This is an old set of lecture notes, last updated in 2017. It could definitely bear updating, but is still popular among previous students of the course:
+
+Link to lecture notes: [PDF file](lecture-notes-fys4480.pdf)
