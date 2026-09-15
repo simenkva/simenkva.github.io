@@ -29,7 +29,11 @@ about:
 
 :::{#hero-heading}
 
-Associate Professor at the [Hylleraas Centre for Quantum Molecular Sciences](https://www.mn.uio.no/hylleraas/),
-Department of Chemistry, University of Oslo, Norway.
+
+**Associate Professor at the [Hylleraas Centre for Quantum Molecular Sciences](https://www.mn.uio.no/hylleraas/),
+Department of Chemistry, University of Oslo, Norway.**
+
+
+My research lies at the intersection of *theoretical physics, quantum chemistry, applied mathematics, and computational science*, with a focus on accurate and efficient methods for *quantum many-body problems*. I work on stationary and time-dependent quantum systems, including electronic-structure theory, coupled-cluster methods, density-functional theory, and strongly correlated systems. A recurring theme is the interplay between *mathematical structure and computational methodology*, using insights into geometry, approximation, and numerical behavior to develop robust computational methods. My broader interests include *quantum dynamics, ultrafast processes, quantum technologies*, and high-performance scientific computing.
 
 :::

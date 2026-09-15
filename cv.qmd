@@ -9,7 +9,7 @@ title: Curriculum Vitae --- Simen Kvaal
 **Associate Professor of Theoretical Chemistry**\
 Department of Chemistry, University of Oslo
 
-**Academic website:** [University of Oslo
+**Academic website:** [Personal website](https://simenkva.github.io/) / [University of Oslo
 profile](https://www.mn.uio.no/)\
 **ORCID:** [0000-0002-5118-4546](https://orcid.org/0000-0002-5118-4546)
 
@@ -288,11 +288,15 @@ Theory and Computation*.
 
 ## Public outreach
 
+**Article in Khrono.no**\
+On the use of artificial intelligence. [Link to article](https://www.khrono.no/ki-er-bullshit/925406)
+
 **Popular-science writing (2010--2014)**\
 Writer for the popular-science blog *Kollokvium*.
 
 **Radio appearances (2010--2014)**\
 NRK *Ekko* and *Abels Tårn*.
+
 
 **Competition judging**\
 Judge for *Immunidol*, public-outreach competition of the Norwegian
