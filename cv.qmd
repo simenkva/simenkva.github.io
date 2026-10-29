@@ -105,15 +105,15 @@ Supervisors: Morten Hjorth-Jensen (main), Hans Petter Langtangen
                                     one-year COVID-19   
                                     extension           
 
-  2018             Collaborator     Peder Sather Center        USD 22k (€20k)
-                                    for Advanced Study  
-                                    Grant --- *A        
+  2018--2019       **Co-PI**, with  Peder Sather Center        USD 22k (€20k)
+                   Lin Lin (UC      for Advanced Study  
+                   Berkeley)        Grant --- *A        
                                     posteriori error    
                                     estimates for       
                                     coupled-cluster     
                                     theory*             
 
-  2015             Collaborator     Peder Sather Center        USD 25k (€23k)
+  2015--2016       Collaborator     Peder Sather Center        USD 25k (€23k)
                                     for Advanced Study  
                                     Grant --- *Advanced 
                                     Computational       
